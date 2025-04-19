@@ -2,3 +2,7 @@ baseURL = 'https://nullified.pages.dev/'
 languageCode = 'en-us'
 title = 'nullified'
 theme = 'smigle'
+
+[params]
+	author = 'Gokul Bejoy'
+
