@@ -16,10 +16,15 @@ h1 {
     text-align: center;
 }
 
-p,li {
+p {
     font-size: 24px;
     text-align: center;
 }
+
+li {
+    font-size: 24px;
+}
+
 
 img {
     display: block;
