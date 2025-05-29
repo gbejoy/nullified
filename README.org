@@ -1,0 +1,11 @@
+#+TITLE: nullified.pages.dev
+#+AUTHOR: Gokul Bejoy
+
+This repo holds all content used in my personal website at
+https://nullified.pages.dev.
+
+Built using Cloudflare Pages
+
+Tested against Debian Stable packages for:
+- firefox-esr
+- chromium
