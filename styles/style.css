@@ -1,33 +1,24 @@
-html {
-    background-color: #ebf7cb;
-    font-size: 10px;
-    font-family: "IBM Plex Sans", sans-serif;
-    letter-spacing:1px;
+@font-face {
+    font-family: "test";
+    src: url("../assets/fonts/Newsreader/Newsreader-VariableFont_opsz,wght.ttf") format("truetype");
 }
+
+html {
+    /* background-color: darkgreen; */
+    font-family: "test", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 
 body {
-    width: 800px;
-    margin: 0 auto;
+    /* background-color: white; */
+    width: 500px;
+    margin: 10 auto;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
-h1 {
-    /* margin: 0; */
-    font-size: 60px;
-    text-align: center;
-}
-
-p {
-    font-size: 24px;
-    text-align: center;
-}
-
-li {
-    font-size: 24px;
-}
-
-
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+nav {
+    text-align: right;
 }
